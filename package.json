@@ -1,0 +1,26 @@
+{
+  "name": "dtc",
+  "version": "1.0.0",
+  "description": "A terminal version of the discord chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js --exec babel-node --presets es2015,stage-2"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "TJ Tracy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "dotenv": "^5.0.1",
+    "nodemon": "^1.17.1"
+  }
+}
