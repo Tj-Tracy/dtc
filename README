@@ -1,0 +1,8 @@
+A lower resource discord client I created so I can still keep up with stuff while on my arch machine.
+I'll continue working on it in my free time.
+
+To login:
+- find your token in a discord client you are already logged into
+- create a .env file with the following:
+    USER_TOKEN=<your_token>
+- it should log you in automatically after that.
